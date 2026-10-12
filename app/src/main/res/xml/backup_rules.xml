@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android Auto Backup (Android 11 and below). The backup bookkeeping (install id, Drive file
+     permission) is install-specific and must not be restored onto another install. -->
+<full-backup-content>
+    <exclude domain="sharedpref" path="backup_state.xml"/>
+    <exclude domain="sharedpref" path="limit_alert_state.xml"/>
+    <exclude domain="sharedpref" path="payment_pairing.xml"/>
+    <exclude domain="sharedpref" path="payment_capture.xml"/>
+    <exclude domain="file" path="capture_log.txt"/>
+</full-backup-content>

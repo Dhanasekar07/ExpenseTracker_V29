@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="delete_confirmation">This category will be permanently deleted. This action cannot be undone.</string>
+    <string name="delete_transaction_confirmation">This transaction will be permanently deleted. This action cannot be undone.</string>
+    <string name="a11y_service_description">Optional. Reads only the payment-success screen of your payment apps (Google Pay, PhonePe and the other UPI apps shown in Settings), only while those apps are open, so Expense Tracker can open its popup instantly. It does not read any other app, passwords or typing, takes no screenshots, and nothing is stored or sent anywhere.</string>
+    <string name="a11y_service_label">Expense Tracker instant detection</string>
+</resources>
